@@ -5,11 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { empleadosComponent } from './Empleados/Empleados.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
-import { EjemploTirarComponent } from './ejemplo-tirar/ejemplo-tirar.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent, empleadosComponent, EmpleadoComponent, EjemploTirarComponent
+    AppComponent, empleadosComponent, EmpleadoComponent,
   ],
   imports: [
     BrowserModule,
