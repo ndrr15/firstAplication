@@ -5,8 +5,8 @@
     <p>Empresa del empleado: {{empresa.value}}</p>
 </div>
 <div>
-    Introduce la empresa: <input type = "text" #empresa>
+    Introduce la empresa: <input type = "text" #empresa (keyup)="0">
     <br/>
     <br/>
-    <input type = "button" value = "Aceptar" (click) = "llamaEmpresa(empresa.value)">
+
 </div>

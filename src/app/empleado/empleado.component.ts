@@ -15,9 +15,6 @@ export class EmpleadoComponent implements OnInit {
   // getEdad(){
   //   return this.edad;
   // }
-  llamaEmpresa(value:String) {
-    
-  }
   constructor() { }
   ngOnInit(): void {
   }
