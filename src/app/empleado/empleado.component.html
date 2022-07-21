@@ -5,8 +5,10 @@
     <p>Empresa del empleado: {{empresa.value}}</p>
 </div>
 <div>
-    Introduce la empresa: <input type = "text" #empresa (keyup)="0">
+    Introduce la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionCuadro" placeholder="nombre de la empresa"/>
     <br/>
     <br/>
+    Registrado : <input type="checkbox" id = "registro" [checked]="usuRegistrado"/>
 
+    {{getRegistroUsuario()}}
 </div>
