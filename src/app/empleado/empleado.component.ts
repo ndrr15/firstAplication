@@ -16,7 +16,7 @@ export class EmpleadoComponent implements OnInit {
   //   return this.edad;
   // }
   habilitacionCuadro = false;
-  usuRegistrado = true;
+  usuRegistrado = false;
   getRegistroUsuario(){
     this.usuRegistrado = true
   }
